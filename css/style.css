@@ -5,7 +5,7 @@
   }
   
   .principal {
-    background-image: url('../images/fondo.jpg');
+    background-image: url(../images/fondo1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -68,12 +68,97 @@
   }
   
   /*archivo historia.html*/
+
+  .general {
+    background-image: url(../images/fondo2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   
-  .titulo2:hover{
+  .titulo2{
     display: flex;
     justify-content: center;
     color: rgb(0, 0, 2);
     font-style: italic;
-    transform: scale(2);
   }
+
+
+  /*archivo flota.html*/
+
+  .titulo3 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 2);
+    font-style: italic;
+  }
+
+  .estructura {
+    background-image: url(../images/fondo3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+
+  /*archivo contactos.html*/
+
+
+  .padre{
+    background-image: url(../images/fondo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .contactenos {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 2);
+    font-style: italic;
+  }
+
+
+  .redessociales {
+    height: 500px;
+    color: rgb(209, 20, 20);
+    backface-visibility: hidden;
+    display: grid;
+    justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  }
+
+
+
+  .paragraph {
+    font-style: oblique;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+  .instagram {
+    height: 200px;
+    width: 200px;
+  }
+
+
+
+  .whatsapp {
+    height: 200px;
+    width: 200px;
+  }
+
+
+
+
+
+
+
+
+
+
+
   
