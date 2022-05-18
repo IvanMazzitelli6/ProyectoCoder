@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* archivo index.html */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .principal {
-  background-image: url(../images/fondo1.jpg);
+  background-color: rgba(75, 75, 78, 0.505);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,8 +15,8 @@
 .logo {
   float: left;
   margin-left: 40px;
-  height: 8%;
-  width: 8%;
+  height: 7%;
+  width: 7%;
   margin: 0px;
   padding-bottom: 5px;
 }
@@ -57,39 +57,48 @@ ul li {
   margin-left: 23%;
 }
 
-
-
-
 footer {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
 }
 
-
+/*Media queries*/
 /*Mobile*/
 @media screen and (max-width: 576px) {
-  body {
+  .principal {
+    background-color: blue;
+  }
+  .padre {
+    background-color: blue;  
+  }
+  .estructura {
+    background-color: blue; 
+  }
+  .general {
     background-color: blue;
   }
 }
+
+
 /*Tablet*/
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  body {
-    background-color: red;
+  .principal {
+    background-color: rgb(255, 0, 0);
+  }
+  .padre {
+    background-color: rgb(255, 0, 0);  
+  }
+  .estructura {
+    background-color: rgb(255, 0, 0); 
+  }
+  .general {
+    background-color: rgb(255, 0, 0);
   }
 }
-/*Desktop*/
-@media screen and (min-width: 769px) {
-  body {
-    background-color: gray;
-  }
-}
-
-
 
 /*archivo nosotros.html*/
 .general {
-  background-image: url(../images/fondo2.jpg_large);
+  background-color: rgba(75, 75, 78, 0.505);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -134,20 +143,22 @@ footer {
 .aech {
   display: flex;
   justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 37%;
 }
+
 
 .aeroparque1 {
-  height: 20%;
-  width: 20%;
+ width: 42%;
+ height: 42%;
+ margin-left: 2%;
 }
 
-.chubut {
-  height: 4%;
-  width: 4%;  
+.chubut1 {
+width: 77%;
+height: 77%;
+margin-left: 33%;
 }
-
 
 
 /*archivo flota.html*/
@@ -161,7 +172,7 @@ footer {
 
 
 .estructura {
-  background-image: url(../images/fondo3.jpg);
+  background-color: rgba(75, 75, 78, 0.505);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -169,7 +180,7 @@ footer {
 
 /*archivo contactos.html*/
 .padre {
-  background-image: url(../images/fondo4.jpg);
+  background-color: rgba(75, 75, 78, 0.505);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
